@@ -15,8 +15,12 @@
     "url": "https://github.com/Alemastro91/gitsass1/issues"
   },
   "homepage": "https://github.com/Alemastro91/gitsass1#readme",
-  "description": "",
   "dependencies": {
     "sass": "^1.54.4"
-  }
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "description": ""
 }
