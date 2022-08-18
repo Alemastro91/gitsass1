@@ -90,20 +90,24 @@ li,
   margin-bottom: 2rem;
 }
 .principal h3 {
-  color: bisque;
+  position: relative;
+  color: rgb(220, 180, 73);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
 }
-.principal .imgfonde {
+.principal .tituloVideo {
+  font-size: 2.3rem;
+}
+.principal .fondomain {
   display: flex;
   flex-direction: column;
   position: absolute;
-  min-height: 42rem;
-  max-height: auto;
-  margin-top: -2rem;
-  padding: 0;
-  opacity: 0.75;
-  border: solid white;
+  opacity: 0.6;
+  align-content: center;
+}
+.principal .fondomain .imgfonde {
+  border: solid whitesmoke;
+  border-width: 5px;
 }
 .principal .imagenes-index {
   display: flex;
@@ -111,20 +115,17 @@ li,
   border-radius: 25px;
   max-width: 40rem;
   max-height: 30rem;
-  margin-top: 3.4rem;
+  margin-top: 5rem;
   margin-left: 3.4rem;
   padding-left: 1rem;
   padding-right: 1rem;
   grid-area: imag;
 }
-.principal .tituloVideo {
-  position: relative;
-  font-size: 2rem;
-}
 .principal .video-contendor {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 3rem;
 }
 .principal .videoResumen {
   display: flex;
@@ -133,8 +134,6 @@ li,
   height: 0;
   overflow: hidden;
   padding-bottom: 56.2%;
-  margin-bottom: 20px;
-  margin-top: 1rem;
 }
 .principal .videoResumen iframe {
   display: flex;
