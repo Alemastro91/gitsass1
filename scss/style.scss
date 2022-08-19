@@ -109,13 +109,12 @@ li,
         display: flex;
         flex-direction: column;
         position: absolute;
-        opacity: 0.6;
+        opacity: 0.8;
         align-content:center;
     
         .imgfonde {
             border: solid whitesmoke;
             border-width: 5px;
-      
         }
 
         
@@ -151,7 +150,6 @@ li,
         height: 0;
         overflow: hidden;
         padding-bottom: 56.2%;
-        
     }
 
     .videoResumen iframe {
