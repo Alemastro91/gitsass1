@@ -74,18 +74,27 @@ li,
 }
 
 .intro {
-    color: rgb(219, 230, 240);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     border: .2rem solid white;
-    margin: 1.4rem;
-    padding: 1.4rem;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+    margin-left: 5rem;
+    margin-right: 5rem;
 
-    .texIntro {
-    font-size: 1.8rem;
-    }
+    .te{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        position: relative;
+        color: rgb(219, 230, 240);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 1.4rem;
+        padding: 1.4rem;
+        }
+
 }
 
 .principal {
