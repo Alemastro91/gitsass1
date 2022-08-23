@@ -1,5 +1,7 @@
 @import './base/variables';
 @import './base/maps';
+@import './base/extend';
+@import './base/mixin';
 
 
 
@@ -43,8 +45,6 @@ body {
     }
 
 }
-
-
     .menuBar{
     display: flex;
     flex-direction: row;
@@ -54,20 +54,16 @@ body {
     @media screen and (max-width: $siz-mob){
         margin: 0;    
     }
-
-            
+      
     .bordeBotones{
-        display: flex;
-        flex-direction: row;
+        @extend %flexdire;
         text-align: center;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: wrap;      
 
         @media screen and (max-width: 768px){
             padding: 0;  
         }
-        
-        
+            
         .boton1,
         .boton2,
         .boton3,
@@ -100,13 +96,9 @@ body {
     }
 
     @media screen and (max-width: 768px){
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
+            @extend %flexdire;        
     }
 
-    
 }
 
 
@@ -152,9 +144,7 @@ body {
 }
 
 .principal {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    @extend %flexdire; 
     margin-bottom: 2rem;
         
 
@@ -211,9 +201,7 @@ body {
         margin-top: 5rem;
         padding-left: 1rem;
         padding-right: 1rem;
-        grid-area: imag;
-
-
+    
         @media screen and (max-width: 768px){
             max-width: 24rem;
             max-height: 24rem;
@@ -231,8 +219,7 @@ body {
         margin-top: 3rem;
 
         @media screen and (max-width: 768px){
-            max-width: 24rem;
-            max-height: 24rem;
+            @include video;
             align-content: center;
        
         }
@@ -259,8 +246,8 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        width: 95%;
-        height: 95%;
+        width: 90%;
+        height: 90%;
     }
 
     .resumenAbajo {
@@ -283,8 +270,7 @@ body {
     }
 
     .reCap {
-        padding-left: 4rem;
-        padding-right: 4rem;
+        @include espacios;
 
         @media screen and (max-width: 768px){
             padding-left: 1rem;

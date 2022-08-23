@@ -1,3 +1,9 @@
+.principal, .menuBar .bordeBotones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 body {
   background-color: black;
   background-image: url(../img/background2.png);
@@ -50,11 +56,8 @@ body {
   }
 }
 .menuBar .bordeBotones {
-  display: flex;
-  flex-direction: row;
   text-align: center;
   flex-wrap: wrap;
-  justify-content: center;
 }
 @media screen and (max-width: 768px) {
   .menuBar .bordeBotones {
@@ -97,14 +100,6 @@ body {
     margin-right: 0;
   }
 }
-@media screen and (max-width: 768px) {
-  .menuBar .bordeBotones {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
 .intro {
   display: flex;
   flex-direction: column;
@@ -141,9 +136,6 @@ body {
 }
 
 .principal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   margin-bottom: 2rem;
 }
 .principal h3 {
@@ -193,7 +185,6 @@ body {
   margin-top: 5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  grid-area: imag;
 }
 @media screen and (max-width: 768px) {
   .principal .imagenes-index {
@@ -229,8 +220,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 95%;
-  height: 95%;
+  width: 90%;
+  height: 90%;
 }
 .principal .resumenAbajo {
   display: flex;

@@ -1,0 +1,9 @@
+@mixin espacios{
+    padding-left: $paddLe;
+    padding-right: $paddRi
+}
+
+@mixin video{
+    max-width: $maxwvid;
+    max-height: $maxhvid;
+}
