@@ -4,6 +4,11 @@ body {
   background-repeat: repeat-y repeat-x;
   background-size: 6rem;
 }
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(../img/background.png);
+  }
+}
 
 .tittle {
   font-size: 5rem;
@@ -11,60 +16,91 @@ body {
   font-weight: 550;
   background-image: url(../img/banner.jpeg);
   background-size: cover;
-  background-position-y: 40%;
+  background-position-y: 39%;
   background-position-x: center;
   background-repeat: no-repeat;
   color: whitesmoke;
   background-color: rgb(29, 14, 14);
   text-align: center;
   padding: 2.5rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  margin-top: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 1rem;
   margin-bottom: 1;
 }
+@media screen and (max-width: 768px) {
+  .tittle {
+    font-size: 4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
 
-.bordeBotones {
+.menuBar {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  margin-inline-end: 1%;
+  justify-content: center;
+  margin: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .menuBar {
+    margin: 0;
+  }
+}
+.menuBar .bordeBotones {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
   justify-content: center;
 }
-
-nav .bordeBotones li {
-  display: inline-block;
-  margin: 1rem;
-  border-style: solid;
-  border-color: rgb(59, 50, 50);
-  border-radius: 20px;
+@media screen and (max-width: 768px) {
+  .menuBar .bordeBotones {
+    padding: 0;
+  }
 }
-
-.menuBar ul li {
-  display: inline-block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
-  line-height: 1rem;
-  padding: 1.2rem;
+.menuBar .bordeBotones .boton1,
+.menuBar .bordeBotones .boton2,
+.menuBar .bordeBotones .boton3,
+.menuBar .bordeBotones .boton4 {
   background-image: url(../img/button1.png);
-  background-size: 100%;
-  background-position-y: center;
-  background-position-x: center;
-}
-
-li,
-.boton1,
-.boton2,
-.boton3,
-.boton4 {
+  background-size: 130%;
+  border: 2px solid beige;
+  border-radius: 20px;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  margin-top: 0.5rem;
+  padding: 0.8rem;
   color: white;
-  text-shadow: whitesmoke;
+  font-size: 1.8rem;
+  background-position-x: center;
+  background-position-y: center;
+  list-style: none;
+  min-width: 15rem;
 }
-
-.boton1:hover,
-.boton2:hover,
-.boton3:hover,
-.boton4:hover {
+@media screen and (max-width: 768px) {
+  .menuBar .bordeBotones .boton1,
+.menuBar .bordeBotones .boton2,
+.menuBar .bordeBotones .boton3,
+.menuBar .bordeBotones .boton4 {
+    min-width: 22rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menuBar .bordeBotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.menuBar .boton1:hover,
+.menuBar .boton2:hover,
+.menuBar .boton3:hover,
+.menuBar .boton4:hover {
   transform: scale(1.1);
   transition: all 0.3s;
 }
@@ -77,6 +113,12 @@ li,
   margin-bottom: 60px;
   margin-left: 5rem;
   margin-right: 5rem;
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
 }
 .intro .te {
   display: flex;
@@ -91,6 +133,12 @@ li,
   margin: 1.4rem;
   padding: 1.4rem;
 }
+@media screen and (max-width: 768px) {
+  .intro .te {
+    font-size: 1.3rem;
+    margin: 0.2rem;
+  }
+}
 
 .principal {
   display: flex;
@@ -104,8 +152,19 @@ li,
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
 }
+@media screen and (max-width: 768px) {
+  .principal h3 {
+    font-size: 1.6rem;
+  }
+}
 .principal .tituloVideo {
   font-size: 2.3rem;
+}
+@media screen and (max-width: 768px) {
+  .principal .tituloVideo {
+    font-size: 2rem;
+    text-shadow: 1px solid white;
+  }
 }
 .principal .fondomain {
   display: flex;
@@ -115,6 +174,11 @@ li,
   align-content: center;
   margin-left: 1rem;
   margin-right: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .principal .fondomain {
+    display: none;
+  }
 }
 .principal .fondomain .imgfonde {
   border: solid whitesmoke;
@@ -131,11 +195,29 @@ li,
   padding-right: 1rem;
   grid-area: imag;
 }
+@media screen and (max-width: 768px) {
+  .principal .imagenes-index {
+    max-width: 24rem;
+    max-height: 24rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.5rem;
+  }
+}
 .principal .video-contendor {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .principal .video-contendor {
+    max-width: 24rem;
+    max-height: 24rem;
+    align-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 .principal .videoResumen {
   display: flex;
@@ -161,12 +243,27 @@ li,
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  grid-area: reca;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .principal .resumenAbajo {
+    margin: 0;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+    justify-content: center;
+    padding: 0;
+  }
 }
 .principal .reCap {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+@media screen and (max-width: 768px) {
+  .principal .reCap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #ffffff;
+  }
 }
 
 footer {
@@ -180,11 +277,23 @@ footer {
   border-radius: 20px;
   max-height: 15rem;
 }
+@media screen and (max-width: 768px) {
+  footer {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+}
 footer .map iframe {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
   max-height: 15rem;
+}
+@media screen and (max-width: 768px) {
+  footer .map iframe {
+    max-width: 11rem;
+    max-height: 11rem;
+  }
 }
 footer .textFoot {
   display: flex;
@@ -196,149 +305,10 @@ footer .textFoot {
   color: white;
   padding-left: 0.8rem;
 }
-
 @media screen and (max-width: 768px) {
-  body {
-    background-image: url(../img/background.png);
-    justify-content: center;
-  }
-  .tittle {
-    font-size: 3.5rem;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-weight: 550;
-    background-image: url(../img/banner.jpeg);
-    background-size: cover;
-    background-position-y: 40%;
-    background-position-x: center;
-    background-repeat: no-repeat;
-    color: whitesmoke;
-    background-color: rgb(29, 14, 14);
-    text-align: center;
-    padding: 2.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1;
-  }
-  .intro {
-    display: flex;
-    flex-direction: column;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    margin: 2rem;
-    padding: 0;
-  }
-  .intro .te {
-    font-size: 1.7rem;
-    text-align: center;
-    text-shadow: 2px 3px 0 gray;
-    color: aliceblue;
-    font-weight: 545;
-  }
-  nav,
-.menuBar,
-.bordeBotones {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    margin: 0;
-    padding: 0;
-  }
-  .menuBar ul li {
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    align-content: center;
-  }
-  .principal {
-    display: flex;
-    flex-direction: row;
-  }
-  .principal .fondomain {
-    display: none;
-  }
-  .principal .imagenes-index {
-    margin-top: 0;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .principal .video-contendor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .imagenes-index {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 0.6rem;
-    padding-right: 0.6rem;
-    margin: 0;
-    justify-content: space-between;
-    width: 22rem;
-  }
-  .video-contendor {
-    display: flex;
-    flex-direction: column;
-    padding-right: 0;
-    margin-top: 5rem;
-  }
-  .videoResumen {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0.5rem;
+  footer .textFoot {
+    font-size: 1rem;
     padding-left: 0.3rem;
-    padding-right: 0.3rem;
-    width: 22rem;
-  }
-  .tituloVideo {
-    color: white;
-    font-weight: 600;
-    font-size: 1.6rem;
-  }
-  .reCap {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.3rem;
-    text-align: center;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-  .resumenAbajo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    grid-area: reca;
-    position: relative;
-  }
-  footer {
-    display: flex;
-    flex-direction: row;
-    background-color: #000000;
-    background-image: linear-gradient(200deg, #000000 30%, #b82e1f 90%);
-    border-radius: 25px;
-    grid-area: foot;
-    align-items: center;
-    align-content: space-between;
-  }
-  .map iframe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 180px;
-    height: 150px;
-    border-radius: 10%;
-  }
-  .textFoot p {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    font-size: 0.9rem;
-    text-align: left;
   }
 }
 
