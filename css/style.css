@@ -100,6 +100,7 @@ body {
     margin-right: 0;
   }
 }
+
 .intro {
   display: flex;
   flex-direction: column;
