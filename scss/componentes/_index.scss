@@ -104,7 +104,7 @@ body {
 .principal {
     @extend %flexdire;
     margin-bottom: 2rem;
-
+    
 
     h3 {
         position: relative;
@@ -125,8 +125,9 @@ body {
         align-content: center;
         margin-left: 1rem;
         margin-right: 1rem;
+        
 
-        .imgfonde {
+        .imgfonde{
             border: solid whitesmoke;
             border-width: 5px;
         }
@@ -167,8 +168,8 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        width: 90%;
-        height: 90%;
+        width: 85%;
+        height: 85%;
     }
 
     .resumenAbajo {
@@ -176,7 +177,7 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 2rem;
+        margin-top: 1∫rem;
         margin-bottom: 3rem;
         position: relative;
     }
