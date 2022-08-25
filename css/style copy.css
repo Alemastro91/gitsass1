@@ -307,32 +307,6 @@ p {
     text-align: center;
 }
 
-/*-----Escritorio -Gird-----*/
-
-/*
-.principal {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows:auto;
-    grid-template-areas:
-    "imag vide"
-    "reca reca"
-    "foot foot";
-}
-*/
-
-/*
-.main-hawkins {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-     "dat1 dat2 map";
-}
-
-/*-------Mobile--------*/
-
-/*--------Mobile---------*/
 
 @media screen and (max-width: 768px) {
     body {

@@ -1,0 +1,65 @@
+@import '../base/variables';
+@import '../base/maps';
+@import '../base/extend';
+@import '../base/mixin';
+@import '../parciales/mediaqu';
+
+.main-hawkins {
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    margin: 2rem;
+    padding-bottom: 4rem;
+    align-items: center;
+
+}
+
+.titmain {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    background-image: linear-gradient(20deg, #000000 30%, #b82e1f 90%);
+    width: 200rem;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+.imag-mapa,
+.imag-sch {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36rem;
+    width: 36rem;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.datos1,
+p {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    color: bisque;
+    grid-area: dat1;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.datos2,
+p {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    color: bisque;
+    grid-area: dat2;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
