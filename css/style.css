@@ -51,6 +51,7 @@
     max-width: 24rem;
     max-height: 24rem;
     margin-top: -5rem;
+    align-items: center;
   }
   .tituloVideo p {
     font-size: 2rem;
@@ -202,6 +203,7 @@
     max-width: 24rem;
     max-height: 24rem;
     margin-top: -5rem;
+    align-items: center;
   }
   .tituloVideo p {
     font-size: 2rem;
@@ -545,6 +547,7 @@ footer .textFoot {
     max-width: 24rem;
     max-height: 24rem;
     margin-top: -5rem;
+    align-items: center;
   }
   .tituloVideo p {
     font-size: 2rem;
@@ -755,6 +758,7 @@ p {
     max-width: 24rem;
     max-height: 24rem;
     margin-top: -5rem;
+    align-items: center;
   }
   .tituloVideo p {
     font-size: 2rem;
