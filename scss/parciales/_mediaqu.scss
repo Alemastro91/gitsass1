@@ -4,6 +4,7 @@
         background-image: url(../img/background.png);
         justify-content: center;
         background-size: $bg-size;
+        overflow-x: hidden;
     }
 
     .tittle {

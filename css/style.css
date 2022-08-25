@@ -10,6 +10,7 @@
     background-image: url(../img/background.png);
     justify-content: center;
     background-size: 7rem;
+    overflow-x: hidden;
   }
   .tittle {
     font-size: 4rem;
@@ -203,6 +204,7 @@
     background-image: url(../img/background.png);
     justify-content: center;
     background-size: 7rem;
+    overflow-x: hidden;
   }
   .tittle {
     font-size: 4rem;
@@ -390,6 +392,7 @@ body {
   background-image: url(../img/bg/bg_main.jpg);
   background-repeat: repeat-y repeat-x;
   background-size: 100rem;
+  overflow-x: hidden;
 }
 
 .tittle {
@@ -582,6 +585,7 @@ footer .textFoot {
     background-image: url(../img/background.png);
     justify-content: center;
     background-size: 7rem;
+    overflow-x: hidden;
   }
   .tittle {
     font-size: 4rem;
@@ -839,6 +843,7 @@ p {
     background-image: url(../img/background.png);
     justify-content: center;
     background-size: 7rem;
+    overflow-x: hidden;
   }
   .tittle {
     font-size: 4rem;
