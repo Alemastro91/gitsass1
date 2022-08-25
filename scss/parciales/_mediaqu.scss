@@ -3,6 +3,7 @@
     body {
         background-image: url(../img/background.png);
         justify-content: center;
+        background-size: $bg-size;
     }
 
     .tittle {
@@ -16,7 +17,7 @@
     .menuBar {
         display: flex;
         flex-direction: row;
-
+    
         .bordeBotones {
             display: flex;
             flex-direction: row;
@@ -60,6 +61,7 @@
         max-height: 24rem;
         margin-top: -5rem;
         align-items: center;
+        
     }
 
     .tituloVideo p {
@@ -110,7 +112,7 @@
 }
 
 //Hawking
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $siz-mob) {
     .main-hawkins {
         display: flex;
         flex-direction: column;
@@ -175,3 +177,53 @@
         border-radius: 8%;
     }
 }
+
+//Personajes
+@media screen and (max-width: $siz-mob){
+    .personajes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        p{
+            text-align: center;
+            font-weight: 600;
+            margin-left: .2rem;
+            margin-right: .2rem;
+            margin-bottom: .2rem;
+        }
+    }
+
+    .personajes img {
+        align-items: center;
+        max-width: 22rem;
+        max-height: 22rem;
+    }
+
+    .backst {
+        display: flex;
+        flex-direction: column;
+        padding-top: 46rem;
+        text-align: center;
+
+        h3{
+            font-size: 2rem;
+            font-weight: 450;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 1px rgb(221, 54, 54);
+            border: 2px solid rgb(221, 172, 47) ;
+            border-radius: 14px;
+            padding-bottom: .3rem;
+        }
+    }
+
+    .backst iframe {
+        justify-content: center;
+        width: 350px;   
+        height: 200px;
+        padding-right: .8rem;
+
+    }
+}
+

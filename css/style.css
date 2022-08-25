@@ -8,6 +8,7 @@
   body {
     background-image: url(../img/background.png);
     justify-content: center;
+    background-size: 6rem;
   }
   .tittle {
     font-size: 4rem;
@@ -148,6 +149,46 @@
     width: 22rem;
     width: 22rem;
     border-radius: 8%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .personajes p {
+    text-align: center;
+    font-weight: 600;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .personajes img {
+    align-items: center;
+    max-width: 22rem;
+    max-height: 22rem;
+  }
+  .backst {
+    display: flex;
+    flex-direction: column;
+    padding-top: 46rem;
+    text-align: center;
+  }
+  .backst h3 {
+    font-size: 2rem;
+    font-weight: 450;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px rgb(221, 54, 54);
+    border: 2px solid rgb(221, 172, 47);
+    border-radius: 14px;
+    padding-bottom: 0.3rem;
+  }
+  .backst iframe {
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    padding-right: 0.8rem;
   }
 }
 .principal, .menuBar .bordeBotones {
@@ -160,6 +201,7 @@
   body {
     background-image: url(../img/background.png);
     justify-content: center;
+    background-size: 6rem;
   }
   .tittle {
     font-size: 4rem;
@@ -302,11 +344,51 @@
     border-radius: 8%;
   }
 }
+@media screen and (max-width: 768px) {
+  .personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .personajes p {
+    text-align: center;
+    font-weight: 600;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .personajes img {
+    align-items: center;
+    max-width: 22rem;
+    max-height: 22rem;
+  }
+  .backst {
+    display: flex;
+    flex-direction: column;
+    padding-top: 46rem;
+    text-align: center;
+  }
+  .backst h3 {
+    font-size: 2rem;
+    font-weight: 450;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px rgb(221, 54, 54);
+    border: 2px solid rgb(221, 172, 47);
+    border-radius: 14px;
+    padding-bottom: 0.3rem;
+  }
+  .backst iframe {
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    padding-right: 0.8rem;
+  }
+}
 body {
   background-color: black;
-  background-image: url(../img/background2.png);
+  background-image: url(../img/bg/bg_main.jpg);
   background-repeat: repeat-y repeat-x;
-  background-size: 6rem;
+  background-size: 100rem;
 }
 
 .tittle {
@@ -327,15 +409,6 @@ body {
   margin-top: 1rem;
   margin-bottom: 1;
 }
-@media screen and (max-width: 768px) {
-  .tittle {
-    font-size: 4rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-}
 
 .menuBar {
   display: flex;
@@ -353,7 +426,6 @@ body {
 .menuBar .bordeBotones .boton4 {
   background-image: url(../img/button1.png);
   background-size: 130%;
-  border: 2px solid beige;
   border-radius: 20px;
   margin-left: 3.5rem;
   margin-right: 3.5rem;
@@ -365,6 +437,10 @@ body {
   background-position-y: center;
   list-style: none;
   min-width: 15rem;
+  border-top: 4px groove rgb(139, 93, 93);
+  border-right: 2px outset #C00;
+  border-bottom: 5px ridge rgb(56, 22, 22);
+  border-left: 2px outset #C00;
 }
 .menuBar .bordeBotones .boton1:hover,
 .menuBar .bordeBotones .boton2:hover,
@@ -504,6 +580,7 @@ footer .textFoot {
   body {
     background-image: url(../img/background.png);
     justify-content: center;
+    background-size: 6rem;
   }
   .tittle {
     font-size: 4rem;
@@ -646,6 +723,46 @@ footer .textFoot {
     border-radius: 8%;
   }
 }
+@media screen and (max-width: 768px) {
+  .personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .personajes p {
+    text-align: center;
+    font-weight: 600;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .personajes img {
+    align-items: center;
+    max-width: 22rem;
+    max-height: 22rem;
+  }
+  .backst {
+    display: flex;
+    flex-direction: column;
+    padding-top: 46rem;
+    text-align: center;
+  }
+  .backst h3 {
+    font-size: 2rem;
+    font-weight: 450;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px rgb(221, 54, 54);
+    border: 2px solid rgb(221, 172, 47);
+    border-radius: 14px;
+    padding-bottom: 0.3rem;
+  }
+  .backst iframe {
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    padding-right: 0.8rem;
+  }
+}
 .main-hawkins {
   display: flex;
   flex-direction: column;
@@ -675,6 +792,11 @@ footer .textFoot {
   width: 36rem;
   width: 36rem;
   border-radius: 20px;
+}
+.imag-mapa:hover,
+.imag-sch:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
 }
 
 h1 {
@@ -715,6 +837,7 @@ p {
   body {
     background-image: url(../img/background.png);
     justify-content: center;
+    background-size: 6rem;
   }
   .tittle {
     font-size: 4rem;
@@ -855,6 +978,46 @@ p {
     width: 22rem;
     width: 22rem;
     border-radius: 8%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .personajes p {
+    text-align: center;
+    font-weight: 600;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .personajes img {
+    align-items: center;
+    max-width: 22rem;
+    max-height: 22rem;
+  }
+  .backst {
+    display: flex;
+    flex-direction: column;
+    padding-top: 46rem;
+    text-align: center;
+  }
+  .backst h3 {
+    font-size: 2rem;
+    font-weight: 450;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px rgb(221, 54, 54);
+    border: 2px solid rgb(221, 172, 47);
+    border-radius: 14px;
+    padding-bottom: 0.3rem;
+  }
+  .backst iframe {
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    padding-right: 0.8rem;
   }
 }
 .personajes {

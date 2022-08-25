@@ -34,6 +34,11 @@
     width: 36rem;
     width: 36rem;
     border-radius: 20px;
+   
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.8s;
+    }
 }
 
 h1 {
