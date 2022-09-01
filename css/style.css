@@ -1070,10 +1070,28 @@ p {
     padding-right: 0.8rem;
   }
 }
+.carr-personajes {
+  opacity: 0.68;
+  position: absolute;
+  min-width: 104rem;
+  margin-top: 26.3rem;
+  border: solid 3px black;
+}
+.carr-personajes .carouselp {
+  justify-items: center;
+}
+
 .personajes {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+.personajes h2 {
+  font-size: 5rem;
+  background-color: #000000;
+  background-image: linear-gradient(20deg, #000000 30%, #b82e1f 90%);
+  width: 104rem;
 }
 
 .intro-pers {
@@ -1084,17 +1102,33 @@ p {
   text-align: center;
   color: whitesmoke;
   font-size: 1.3rem;
-  max-width: 50rem;
-  max-height: 50rem;
+  max-width: 80rem;
+  max-height: 80rem;
+  position: relative;
+}
+.intro-pers p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 4px 2px black;
 }
 
 .backst {
   color: azure;
   display: flex;
   flex-direction: column;
-  margin-top: 26rem;
+  margin-top: 2rem;
   text-align: center;
   margin-bottom: 3rem;
+  position: relative;
+}
+.backst h3 {
+  font-size: 3rem;
+  text-shadow: 2px 4px 2px black;
+}
+.backst iframe {
+  width: 50rem;
+  height: 30rem;
 }
 
 /*# sourceMappingURL=style.css.map */
