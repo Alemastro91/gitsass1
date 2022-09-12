@@ -29,9 +29,12 @@
   .menuBar {
     display: flex;
     flex-direction: row;
+    padding-right: 0;
+    justify-items: center;
   }
   .menuBar .bordeBotones {
     text-align: center;
+    padding: 0;
   }
   .menuBar .bordeBotones .boton1,
 .menuBar .bordeBotones .boton2,
@@ -39,6 +42,9 @@
 .menuBar .bordeBotones .boton4 {
     width: 360px;
     font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0.4rem;
   }
   .intro {
     margin-left: 0.8rem;
@@ -168,46 +174,6 @@
     width: 22rem;
     width: 22rem;
     border-radius: 8%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .personajes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .personajes p {
-    text-align: center;
-    font-weight: 600;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-    margin-bottom: 0.2rem;
-  }
-  .personajes img {
-    align-items: center;
-    max-width: 22rem;
-    max-height: 22rem;
-  }
-  .backst {
-    display: flex;
-    flex-direction: column;
-    padding-top: 46rem;
-    text-align: center;
-  }
-  .backst h3 {
-    font-size: 2rem;
-    font-weight: 450;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 1px rgb(221, 54, 54);
-    border: 2px solid rgb(221, 172, 47);
-    border-radius: 14px;
-    padding-bottom: 0.3rem;
-  }
-  .backst iframe {
-    justify-content: center;
-    width: 350px;
-    height: 200px;
-    padding-right: 0.8rem;
   }
 }
 .principal, .menuBar .bordeBotones {
@@ -241,9 +207,12 @@
   .menuBar {
     display: flex;
     flex-direction: row;
+    padding-right: 0;
+    justify-items: center;
   }
   .menuBar .bordeBotones {
     text-align: center;
+    padding: 0;
   }
   .menuBar .bordeBotones .boton1,
 .menuBar .bordeBotones .boton2,
@@ -251,6 +220,9 @@
 .menuBar .bordeBotones .boton4 {
     width: 360px;
     font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0.4rem;
   }
   .intro {
     margin-left: 0.8rem;
@@ -380,46 +352,6 @@
     width: 22rem;
     width: 22rem;
     border-radius: 8%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .personajes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .personajes p {
-    text-align: center;
-    font-weight: 600;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-    margin-bottom: 0.2rem;
-  }
-  .personajes img {
-    align-items: center;
-    max-width: 22rem;
-    max-height: 22rem;
-  }
-  .backst {
-    display: flex;
-    flex-direction: column;
-    padding-top: 46rem;
-    text-align: center;
-  }
-  .backst h3 {
-    font-size: 2rem;
-    font-weight: 450;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 1px rgb(221, 54, 54);
-    border: 2px solid rgb(221, 172, 47);
-    border-radius: 14px;
-    padding-bottom: 0.3rem;
-  }
-  .backst iframe {
-    justify-content: center;
-    width: 350px;
-    height: 200px;
-    padding-right: 0.8rem;
   }
 }
 body {
@@ -614,9 +546,12 @@ footer .textFoot p {
   .menuBar {
     display: flex;
     flex-direction: row;
+    padding-right: 0;
+    justify-items: center;
   }
   .menuBar .bordeBotones {
     text-align: center;
+    padding: 0;
   }
   .menuBar .bordeBotones .boton1,
 .menuBar .bordeBotones .boton2,
@@ -624,6 +559,9 @@ footer .textFoot p {
 .menuBar .bordeBotones .boton4 {
     width: 360px;
     font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0.4rem;
   }
   .intro {
     margin-left: 0.8rem;
@@ -753,46 +691,6 @@ footer .textFoot p {
     width: 22rem;
     width: 22rem;
     border-radius: 8%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .personajes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .personajes p {
-    text-align: center;
-    font-weight: 600;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-    margin-bottom: 0.2rem;
-  }
-  .personajes img {
-    align-items: center;
-    max-width: 22rem;
-    max-height: 22rem;
-  }
-  .backst {
-    display: flex;
-    flex-direction: column;
-    padding-top: 46rem;
-    text-align: center;
-  }
-  .backst h3 {
-    font-size: 2rem;
-    font-weight: 450;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 1px rgb(221, 54, 54);
-    border: 2px solid rgb(221, 172, 47);
-    border-radius: 14px;
-    padding-bottom: 0.3rem;
-  }
-  .backst iframe {
-    justify-content: center;
-    width: 350px;
-    height: 200px;
-    padding-right: 0.8rem;
   }
 }
 .main-hawkins {
@@ -889,9 +787,12 @@ p {
   .menuBar {
     display: flex;
     flex-direction: row;
+    padding-right: 0;
+    justify-items: center;
   }
   .menuBar .bordeBotones {
     text-align: center;
+    padding: 0;
   }
   .menuBar .bordeBotones .boton1,
 .menuBar .bordeBotones .boton2,
@@ -899,6 +800,9 @@ p {
 .menuBar .bordeBotones .boton4 {
     width: 360px;
     font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0.4rem;
   }
   .intro {
     margin-left: 0.8rem;
@@ -1030,52 +934,12 @@ p {
     border-radius: 8%;
   }
 }
-@media screen and (max-width: 768px) {
-  .personajes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .personajes p {
-    text-align: center;
-    font-weight: 600;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-    margin-bottom: 0.2rem;
-  }
-  .personajes img {
-    align-items: center;
-    max-width: 22rem;
-    max-height: 22rem;
-  }
-  .backst {
-    display: flex;
-    flex-direction: column;
-    padding-top: 46rem;
-    text-align: center;
-  }
-  .backst h3 {
-    font-size: 2rem;
-    font-weight: 450;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 1px rgb(221, 54, 54);
-    border: 2px solid rgb(221, 172, 47);
-    border-radius: 14px;
-    padding-bottom: 0.3rem;
-  }
-  .backst iframe {
-    justify-content: center;
-    width: 350px;
-    height: 200px;
-    padding-right: 0.8rem;
-  }
-}
 .carr-personajes {
   opacity: 0.68;
-  position: absolute;
   min-width: 104rem;
   margin-top: 26.3rem;
   border: solid 3px black;
+  position: absolute;
 }
 .carr-personajes .carouselp {
   justify-items: center;
@@ -1095,18 +959,19 @@ p {
 }
 
 .intro-pers {
+  position: relative;
   display: flex;
   flex-direction: column;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
   text-align: center;
   color: whitesmoke;
   font-size: 1.3rem;
   max-width: 80rem;
   max-height: 80rem;
-  position: relative;
 }
 .intro-pers p {
+  margin-top: 10rem;
   font-size: 1.6rem;
   font-weight: 600;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -1117,16 +982,17 @@ p {
   color: azure;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 10rem;
   text-align: center;
   margin-bottom: 3rem;
   position: relative;
 }
 .backst h3 {
-  font-size: 3rem;
+  font-size: 4rem;
   text-shadow: 2px 4px 2px black;
 }
 .backst iframe {
+  margin-top: 2.2rem;
   width: 50rem;
   height: 30rem;
 }

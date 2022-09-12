@@ -25,13 +25,13 @@
 
     .menuBar {
         display: flex;
-        flex-direction: row;
-
-
-
+        flex-direction: row;   
+        padding-right: 0;   
+        justify-items: center;  
+        
         .bordeBotones {
             text-align: center;
-
+            padding: 0;
 
             .boton1,
             .boton2,
@@ -39,6 +39,9 @@
             .boton4 {
                 width: 360px;
                 font-size: 1.5rem;
+                margin-left: 0;
+                margin-right: 0;
+                margin: .4rem;
 
             }
         }
@@ -109,7 +112,7 @@
             margin-top: 2.5rem;
             margin-bottom: 2rem;
 
-            .reCap{
+            .reCap {
                 padding-left: 0;
                 padding-right: 0;
 
@@ -131,7 +134,7 @@
         .map iframe {
             max-width: 11rem;
             max-height: 11rem;
-            ;
+            
         }
 
         .textFoot p {
@@ -141,9 +144,8 @@
             text-align: left;
         }
     }
+
 }
-
-
 
 //Hawking
 @media screen and (max-width: $siz-mob) {
@@ -213,50 +215,3 @@
 }
 
 //Personajes
-@media screen and (max-width: $siz-mob) {
-    .personajes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-
-        p {
-            text-align: center;
-            font-weight: 600;
-            margin-left: .2rem;
-            margin-right: .2rem;
-            margin-bottom: .2rem;
-        }
-    }
-
-    .personajes img {
-        align-items: center;
-        max-width: 22rem;
-        max-height: 22rem;
-    }
-
-    .backst {
-        display: flex;
-        flex-direction: column;
-        padding-top: 46rem;
-        text-align: center;
-
-        h3 {
-            font-size: 2rem;
-            font-weight: 450;
-            color: rgb(255, 255, 255);
-            text-shadow: 2px 1px rgb(221, 54, 54);
-            border: 2px solid rgb(221, 172, 47);
-            border-radius: 14px;
-            padding-bottom: .3rem;
-        }
-    }
-
-    .backst iframe {
-        justify-content: center;
-        width: 350px;
-        height: 200px;
-        padding-right: .8rem;
-
-    }
-}

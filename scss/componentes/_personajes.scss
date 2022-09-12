@@ -7,19 +7,16 @@
 
 .carr-personajes{
     opacity: .68;
-    position: absolute;
     min-width: 104rem;
     margin-top: 26.3rem;
     border: solid 3px black;
+    position: absolute;
         .carouselp{
             justify-items: center;
         }
 }
 
-.container-mainp{
-    
 
-}
 
 .personajes {
     display: flex;
@@ -31,43 +28,46 @@
         background-color: #000000;
         background-image: linear-gradient(20deg, #000000 30%, #b82e1f 90%);
         width: 104rem;
-        
      }
 }
 
 .intro-pers {
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
     text-align: center;
     color: whitesmoke;
     font-size: 1.3rem;
     max-width: 80rem;
-    max-height: 80rem;
-    position: relative;
+    max-height: 80rem;    
      p{
+        margin-top: 10rem;
         font-size: 1.6rem;
         font-weight: 600;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-shadow: 2px 4px 2px black;
+        text-shadow: 2px 4px 2px black;     
      }
+    
 }
 
 .backst {
     color: azure;
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 10rem;
     text-align: center;
     margin-bottom: 3rem;
     position: relative;
         h3{
-            font-size: 3rem;
+            font-size: 4rem;
             text-shadow: 2px 4px 2px black;
         }
     iframe{
+        margin-top: 2.2rem;
         width: 50rem;
         height: 30rem;
     }
+
 }
