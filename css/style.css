@@ -176,6 +176,55 @@
     border-radius: 8%;
   }
 }
+@media screen and (max-width: 768px) {
+  .carr-personajes {
+    display: none;
+  }
+  .personajes .intro-pers h2 {
+    font-size: 3rem;
+    width: 28rem;
+  }
+  .personajes .intro-pers p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .imgcast {
+    width: 23rem;
+    margin-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .backst {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+  .backst .vid-pers {
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .backst .vid-pers h3 {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 4px 2px black;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .backst .vid-pers iframe {
+    justify-content: center;
+    margin-left: 2.1rem;
+    margin-top: 2.2rem;
+    width: 24rem;
+    height: 15rem;
+  }
+}
 .principal, .menuBar .bordeBotones {
   display: flex;
   flex-direction: row;
@@ -352,6 +401,55 @@
     width: 22rem;
     width: 22rem;
     border-radius: 8%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carr-personajes {
+    display: none;
+  }
+  .personajes .intro-pers h2 {
+    font-size: 3rem;
+    width: 28rem;
+  }
+  .personajes .intro-pers p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .imgcast {
+    width: 23rem;
+    margin-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .backst {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+  .backst .vid-pers {
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .backst .vid-pers h3 {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 4px 2px black;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .backst .vid-pers iframe {
+    justify-content: center;
+    margin-left: 2.1rem;
+    margin-top: 2.2rem;
+    width: 24rem;
+    height: 15rem;
   }
 }
 body {
@@ -693,6 +791,55 @@ footer .textFoot p {
     border-radius: 8%;
   }
 }
+@media screen and (max-width: 768px) {
+  .carr-personajes {
+    display: none;
+  }
+  .personajes .intro-pers h2 {
+    font-size: 3rem;
+    width: 28rem;
+  }
+  .personajes .intro-pers p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .imgcast {
+    width: 23rem;
+    margin-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .backst {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+  .backst .vid-pers {
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .backst .vid-pers h3 {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 4px 2px black;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .backst .vid-pers iframe {
+    justify-content: center;
+    margin-left: 2.1rem;
+    margin-top: 2.2rem;
+    width: 24rem;
+    height: 15rem;
+  }
+}
 .main-hawkins {
   display: flex;
   flex-direction: row;
@@ -932,6 +1079,55 @@ p {
     width: 22rem;
     width: 22rem;
     border-radius: 8%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carr-personajes {
+    display: none;
+  }
+  .personajes .intro-pers h2 {
+    font-size: 3rem;
+    width: 28rem;
+  }
+  .personajes .intro-pers p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .imgcast {
+    width: 23rem;
+    margin-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .backst {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+  .backst .vid-pers {
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .backst .vid-pers h3 {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 4px 2px black;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .backst .vid-pers iframe {
+    justify-content: center;
+    margin-left: 2.1rem;
+    margin-top: 2.2rem;
+    width: 24rem;
+    height: 15rem;
   }
 }
 .carr-personajes {
