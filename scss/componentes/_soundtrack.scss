@@ -1,0 +1,32 @@
+@import '../base/variables';
+@import '../base/maps';
+@import '../base/extend';
+@import '../base/mixin';
+@import '../parciales/mediaqu';
+
+.listas-spot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+        div{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+        }
+}
+
+.bso-cap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+        h1{
+            text-align: center;
+            color: aliceblue;
+            font-size: 2rem;
+        }
+}
